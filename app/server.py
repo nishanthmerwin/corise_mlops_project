@@ -129,8 +129,6 @@ app = FastAPI()
 
 
 MODEL = None
-
-
 @app.on_event("startup")
 def startup_event():
     """
